@@ -13,13 +13,13 @@
 - The input that doesn't induce a failure
   ```
   @Test 
-	public void testReverseInPlace() {
+	public void testReverseInPlace2() {
     int[] input1 = { 5 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 5 }, input1);
 	}
   ```
-- The symptom ...
+- The symptom as the output of running the tests
   ![Image]
   ![Image]
 - the bug as the before and after code change
