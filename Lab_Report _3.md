@@ -20,11 +20,32 @@
 	}
   ```
 - The symptom as the output of running the tests
-- -This is the screenshot for the input that gives a symptom 
+
+  This is the screenshot for the failure-inducing input
   ![Image](sym1.png)
-- -This is the screenshot for the input that is not given an error
-  ![Image](sym2.png)
-- the bug as the before and after code change
+  
+  This is the screenshot for the input that doesn't induce a failure 
+  ![Image](sym3.png)
+  
+- The code with the bug 
+
+```
+ static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+- The code without the bug  
+
+  ```
+   static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
 
 # Part 2 - Researching Commands
 I choose grep command (4 alternate ways to use it then for each 4 give 2 examples of using it in on files and directories form ./techhnical
