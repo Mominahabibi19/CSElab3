@@ -1,7 +1,15 @@
 ## **Lab Report 3 - Bugs and Commands**
 *By Momina Habibi*
 # Part 1 - Bugs
-- The failure-inducing input for the
+- The failure-inducing input
+```
+@Test
+  public void testReverseInPlace1() {
+    int[] input1 = { 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
+	}
+```
 - The input that doesnt induce a failure
 - The symptom ...
   ![Image]
