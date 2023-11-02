@@ -48,6 +48,8 @@
     }
   }
   ```
+- The fix addresses the issue because
+
 
 # Part 2 - Researching Commands
 I choose grep command (4 alternate ways to use it then for each 4 give 2 examples of using it in on files and directories form ./techhnical
