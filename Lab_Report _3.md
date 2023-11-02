@@ -20,8 +20,10 @@
 	}
   ```
 - The symptom as the output of running the tests
-  ![Image]
-  ![Image]
+- -This is the screenshot for the input that gives a symptom 
+  ![Image](sym1.png)
+- -This is the screenshot for the input that is not given an error
+  ![Image](sym2.png)
 - the bug as the before and after code change
 
 # Part 2 - Researching Commands
