@@ -10,7 +10,15 @@
     assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
 	}
 ```
-- The input that doesnt induce a failure
+- The input that doesn't induce a failure
+  ```
+  @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 5 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5 }, input1);
+	}
+  ```
 - The symptom ...
   ![Image]
   ![Image]
