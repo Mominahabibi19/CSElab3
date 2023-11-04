@@ -100,17 +100,63 @@ program staff to examine the degree to which gender, race,
 ethnicity and age have adversely affected the ability of some
 (base) mominahabibi@Mominas-MBP docsearch % 
 ```
-When you use the command line `-A num` tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description so when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
+When you use the command line `-A num`(after context = num) tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description so when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
 
-- Third alternate way of using the command grep with 
-Example 1:
+- Third alternate way of using the command `grep` with `-H`
+- - Example 1:
 ```
-code
+(base) mominahabibi@Mominas-MBP About_LSC % grep -H -i supreme *Opinion.txt *Syllabus.txt
+LegalServCorp_v_VelazquezOpinion.txt:SUPREME COURT OF THE UNITED STATES
+LegalServCorp_v_VelazquezSyllabus.txt:SUPREME COURT OF THE UNITED STATES
+(base) mominahabibi@Mominas-MBP About_LSC % 
 ```
-Example 2:
+- - Example 2:
 ```
-code
+(base) mominahabibi@Mominas-MBP About_LSC % grep -H -i organizations *port.txt           
+Progress_report.txt:that emphasizes strengthening quality at individual organizations
+Progress_report.txt:in other nonprofit organizations that work as partners with our
+Progress_report.txt:associations and community organizations. Meetings are also
+State_Planning_Report.txt:Organizations are like elephants -- slow to change
+State_Planning_Report.txt:organizations, or, in some instances, took their skills and talents
+State_Planning_Report.txt:organizations to a deeper involvement in state planning and higher
+State_Planning_Report.txt:increase the capacities of three community-based organizations.
+State_Planning_Report.txt:twelve LSC organizations. Recommendations that programs improve
+State_Planning_Report.txt:serve clients whom LSC-funded organizations could not
+State_Planning_Report.txt:community education site for immigrant advocacy organizations.
+State_Planning_Report.txt:the state's 33 nonprofit civil legal services organizations, has
+State_Planning_Report.txt:legal services organizations, religious communities, the judiciary,
+State_Planning_Report.txt:lawyers and cultural organizations to address the need for
+State_Planning_Report.txt:The organizations and institutions, which comprise our
+State_Planning_Report.txt:to decisions to consolidate the five organizations. In 2001, final
+State_Planning_Report.txt:individuals and organizations involved in the support and delivery
+State_Planning_Report.txt:organizations that target very specific populations or legal
+State_Planning_Report.txt:problems. Others are part of larger organizations that focus on
+State_Planning_Report.txt:including other client-centered non-profit organizations, and a
+State_Planning_Report.txt:county bars, law schools, public interest legal organizations, and
+State_Planning_Report.txt:communitybased organizations, and the organized bar. A consultant
+State_Planning_Report.txt:whether maintenance of three separate organizations continues to
+State_Planning_Report.txt:organizations adopt new structures and approaches that can cope
+State_Planning_Special_Report.txt:LSC understands that organizations can be reluctant to embrace
+Strategic_report.txt:organizations - the combined Conference of State Court Judges and
+Strategic_report.txt:organizations to obtain distance learning opportunities, allowing
+Strategic_report.txt:individuals and organizations with special knowledge or experience
+Strategic_report.txt:pro bono and legal services organizations and the support and
+Strategic_report.txt:area. Organizations are able to use the site's extensive resources
+Strategic_report.txt:host organizations to revise content without a webmaster or
+Strategic_report.txt:endeavors with a host of national organizations - NLADA, AARP Legal
+Strategic_report.txt:LSC works cooperatively with several national organizations that
+Strategic_report.txt:reason poverty organizations have not "more completely answered the
+Strategic_report.txt:awards, LRI resources, our partnerships with national organizations
+commission_report.txt:unemployment. Farmworker community organizations have found that
+commission_report.txt:Organizations
+commission_report.txt:funded, non-profit organizations is limited. See March Comments at
+commission_report.txt:(testimony of Jack Londen, Attorney at Law). These organizations
+commission_report.txt:nonprofit organizations, such as the Mexican American Legal Defense
+commission_report.txt:Consequently, these non-profit legal organizations are not a
+commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations and
+(base) mominahabibi@Mominas-MBP About_LSC % 
 ```
+`-H` command line is used to force `grep` to print the file name along with the output lines. for sure, this is a useful command especially the time that we are searching multiple files with similar content and we just want to quickly identify which file contains the matching lines. Also, when troubleshooting or debugging it will be so useful because it will show which file contains problematice lines making it easier to address the issue. 
 
 - Fourth alternate way of using the command grep with 
 Example 1:
