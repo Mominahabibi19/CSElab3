@@ -3,6 +3,7 @@
 
 # Part 1 - Bugs
 - The failure-inducing input
+  
 ```
 @Test
   public void testReverseInPlace1() {
@@ -11,7 +12,9 @@
     assertArrayEquals(new int[]{ 3, 2, 1 }, input1);
 	}
 ```
+
 - The input that doesn't induce a failure
+  
 ```
 @Test 
 	public void testReverseInPlace2() {
@@ -20,6 +23,7 @@
     assertArrayEquals(new int[]{ 5 }, input1);
 	}
 ```
+
 - The symptom as the output of running the tests
 
   This is the screenshot for the failure-inducing input
@@ -49,6 +53,7 @@
     }
   }
 ```
+
 - The fix addresses the issue by correctly reversing the elements in the input array through a swapping. first, I changed the parameter in the for loop to i < arr.length/2 then I created a temp variable to save the original value of the element at index `i` then  I swapped the current element at index `i` with the element at the corresponding position from the end of the array then I assign the element from the end of the array with the value stored in the temp variable which contains the original value of the element at index `i`. By doing this approach, the fix ensures that the input array is reversed in place and does correctly for arrays of any length.
 
 
@@ -57,14 +62,17 @@ I chose the command `grep` because it is a very useful command for searching tex
 
 - First alternate way of using the command `grep` with `-iw`
 - - Example 1:
+    
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -iw war ./technical/911report/chapter-1.txt
     The threat of Soviet bombers diminished significantly as the Cold War ended, and the number of NORAD alert sites was reduced from its Cold War high of 26. Some within the Pentagon argued in the 1990s that the alert sites should be eliminated entirely. In an effort to preserve their mission, members of the air defense community advocated the importance of air sovereignty against emerging "asymmetric threats" to the United States: drug smuggling, "non-state and state-sponsored terrorists," and the proliferation of weapons of mass destruction and ballistic missile technology.
     The President's motorcade departed at 9:35, and arrived at the airport between 9:42 and 9:45. During the ride the President learned about the attack on the Pentagon. He boarded the aircraft, asked the Secret Service about the safety of his family, and called the Vice President. According to notes of the call, at about 9:45 the President told the Vice President:"Sounds like we have a minor war going on here, I heard about the Pentagon. We're at war . . . somebody's going to pay."
     At 10:02 that morning, an assistant to the mission crew commander at NORAD's Northeast Air Defense Sector in Rome, New York, was working with his colleagues on the floor of the command center. In a brief moment of reflection, he was recorded remarking that "This is a new type of war."
-(base) mominahabibi@Mominas-MBP docsearch % 
+(base) mominahabibi@Mominas-MBP docsearch %
+
 ```
 - - Example 2:
+    
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -iw niaaa ./technical/government/*/*2-PDF.txt
 Institute on Alcohol Abuse and Alcoholism (NIAAA) defines at-risk
@@ -80,6 +88,7 @@ Using the command `grep` with `-iw ` so the `-i` (ignore case) makes grep case i
 
 - Second alternate way of using the command `grep` with `[-A num]`
 - - Example 1:
+    
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -A 3 BACKGROUND ./technical/*/*/*annual.txt 
 BACKGROUND
@@ -90,6 +99,7 @@ corporation established in the District of Columbia by the Legal
 
 ```
 - - Example 2:
+    
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -A 5 Diversity ./technical/*/*/*annual.txt
 Diversity
@@ -98,12 +108,14 @@ leadership sensitivity to client communities, LSC has convened a
 series of conferences on diversity. These conferences will enable
 program staff to examine the degree to which gender, race,
 ethnicity and age have adversely affected the ability of some
-(base) mominahabibi@Mominas-MBP docsearch % 
+(base) mominahabibi@Mominas-MBP docsearch %
+
 ```
 When you use the command line `-A num`(after context = num) tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
 
 - Third alternate way of using the command `grep` with `-H`
 - - Example 1:
+    
 ```
 (base) mominahabibi@Mominas-MBP About_LSC % grep -H -i supreme *Opinion.txt *Syllabus.txt
 LegalServCorp_v_VelazquezOpinion.txt:SUPREME COURT OF THE UNITED STATES
@@ -111,6 +123,7 @@ LegalServCorp_v_VelazquezSyllabus.txt:SUPREME COURT OF THE UNITED STATES
 (base) mominahabibi@Mominas-MBP About_LSC % 
 ```
 - - Example 2:
+    
 ```
 (base) mominahabibi@Mominas-MBP About_LSC % grep -H -i organizations *port.txt           
 Progress_report.txt:that emphasizes strengthening quality at individual organizations
@@ -156,10 +169,12 @@ commission_report.txt:Consequently, these non-profit legal organizations are not
 commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations and
 (base) mominahabibi@Mominas-MBP About_LSC % 
 ```
+
 `-H` command line is used to force `grep` to print the file name along with the output lines. Definitely, this is a useful command especially the time that we are searching multiple files with similar content and we just want to quickly identify which file contains the matching lines. Also, when troubleshooting or debugging it will be so useful because it will show which file contains problematice lines making it easier to address the issue. 
 
 - Fourth alternate way of using the command `grep` with `-C` 
  - - Example 1:
+     
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -C 7 "The Price of Life" ./technical/*/*12.txt
 ./technical/plos/journal.pbio.0020012.txt-        another two areas of investigation. Her laboratory reported in December 2002 that
@@ -180,6 +195,7 @@ commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations a
 
 ```
 - - Example 2:
+    
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -C 5 "The incidence" ./technical/*/*46.txt
 ./technical/plos/journal.pbio.0020046.txt-        Winston Churchill had to rehearse all his public speeches to perfection and even practiced
@@ -193,7 +209,8 @@ commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations a
 ./technical/plos/journal.pbio.0020046.txt-        adolescence to reach three or four males to every one female in adulthood. It is not clear
 ./technical/plos/journal.pbio.0020046.txt-        to what extent this recovery is spontaneous or induced by early speech therapy. Also, there
 ./technical/plos/journal.pbio.0020046.txt-        is no good way of predicting whether an affected child will recover (Yairi and Ambrose
-(base) mominahabibi@Mominas-MBP docsearch % 
+(base) mominahabibi@Mominas-MBP docsearch %
+
 ```
 Sometimes you really want to see some additional context that contains before and after the match, so we use `-C num` (context) with `grep` command to specify the number of lines of context to display around the match line. It will be useful for searching some text in the computer program you wrote so if you want to see the sounding code that matches.
 
