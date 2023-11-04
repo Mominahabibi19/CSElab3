@@ -53,10 +53,10 @@
 
 
 # Part 2 - Researching Commands
-I chose the command grep because it is a very useful command for searching text patterns within files. 
+I chose the command `grep` because it is a very useful command for searching text patterns within files. 
 
-- First alternate way of using command grep with -iw
-Example 1:
+- First alternate way of using the command `grep` with `-iw`
+- - Example 1:
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -iw war ./technical/911report/chapter-1.txt
     The threat of Soviet bombers diminished significantly as the Cold War ended, and the number of NORAD alert sites was reduced from its Cold War high of 26. Some within the Pentagon argued in the 1990s that the alert sites should be eliminated entirely. In an effort to preserve their mission, members of the air defense community advocated the importance of air sovereignty against emerging "asymmetric threats" to the United States: drug smuggling, "non-state and state-sponsored terrorists," and the proliferation of weapons of mass destruction and ballistic missile technology.
@@ -64,7 +64,7 @@ Example 1:
     At 10:02 that morning, an assistant to the mission crew commander at NORAD's Northeast Air Defense Sector in Rome, New York, was working with his colleagues on the floor of the command center. In a brief moment of reflection, he was recorded remarking that "This is a new type of war."
 (base) mominahabibi@Mominas-MBP docsearch % 
 ```
-Example 2:
+- - Example 2:
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -iw niaaa ./technical/government/*/*2-PDF.txt
 Institute on Alcohol Abuse and Alcoholism (NIAAA) defines at-risk
@@ -76,17 +76,31 @@ be evaluated by studying the NIAAA approach and several
 (base) mominahabibi@Mominas-MBP docsearch % 
 
 ```
-Using command `grep` with `[-iw word]` so the `-i` (ignore case) makes grep case insensitive and `-w` (word-regexp) ensures that grep matches only whole words. It is so useful for the time that we want to find the whole word regardless of whether the characters are in uppercase or lowercase.  
+Using the command `grep` with `-iw ` so the `-i` (ignore case) makes grep case insensitive and `-w` (word-regexp) ensures that grep matches only whole words. It is so useful for the time that we want to find the whole word regardless of whether the characters are in uppercase or lowercase.  
 
-- Second alternate way of using the command grep with 
-Example 1:
+- Second alternate way of using the command `grep` with `[-A num]`
+- - Example 1:
 ```
-code
+(base) mominahabibi@Mominas-MBP docsearch % grep -A 3 BACKGROUND ./technical/*/*/*annual.txt 
+BACKGROUND
+Legal Services Corporation
+The Legal Services Corporation is a private, non-profit
+corporation established in the District of Columbia by the Legal
+(base) mominahabibi@Mominas-MBP docsearch %
+
 ```
 Example 2:
 ```
-code
+(base) mominahabibi@Mominas-MBP docsearch % grep -A 5 Diversity ./technical/*/*/*annual.txt
+Diversity
+To better serve clients and strengthen program staff and
+leadership sensitivity to client communities, LSC has convened a
+series of conferences on diversity. These conferences will enable
+program staff to examine the degree to which gender, race,
+ethnicity and age have adversely affected the ability of some
+(base) mominahabibi@Mominas-MBP docsearch % 
 ```
+When you use the command line `-A num` tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description so when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
 
 - Third alternate way of using the command grep with 
 Example 1:
