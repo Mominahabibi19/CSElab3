@@ -195,6 +195,7 @@ Example 2:
 ./technical/plos/journal.pbio.0020046.txt-        is no good way of predicting whether an affected child will recover (Yairi and Ambrose
 (base) mominahabibi@Mominas-MBP docsearch % 
 ```
-Sometimes you really want to see some additional context that contains before and after the match, so we use `-C num` with grepIt will be useful searching for the computer program you wrote so if you want to see the sounding code that it matches
-use of grep with different commands
-https://www.youtube.com/watch?v=N05sWPgj-44
+Sometimes you really want to see some additional context that contains before and after the match, so we use `-C num` (context) with `grep` command to specify the number of lines of context to display around the match line. It will be useful for searching some text in the computer program you wrote so if you want to see the sounding code that matches.
+
+I learned all of these commands by watching a YouTube video. I typed in the search box "use of grep with different commands" and then I opened [this video]
+(https://www.youtube.com/watch?v=N05sWPgj-44) and took notes. In addition, I learned about grep and the command line that I can use with it by typing `man grep` in my terminal. Then, I applied in the VS Code using the files and directories form `./technical`
