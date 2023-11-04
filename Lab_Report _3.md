@@ -1,5 +1,6 @@
-## **Lab Report 3 - Bugs and Commands**
+# **Lab Report 3 - Bugs and Commands**
 *By Momina Habibi*
+
 # Part 1 - Bugs
 - The failure-inducing input
 ```
