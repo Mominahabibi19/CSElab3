@@ -52,6 +52,47 @@
 
 
 # Part 2 - Researching Commands
-I choose grep command (4 alternate ways to use it then for each 4 give 2 examples of using it in on files and directories form ./techhnical
-show the each example as code block the command and its output then
-write senenteces about what is doing and why its useful. total 8 examples.
+I choose command grep 
+
+- First alternate way of using command grep with -iw
+Example 1:
+```
+(base) mominahabibi@Mominas-MBP docsearch % grep -iw war ./technical/911report/chapter-1.txt
+    The threat of Soviet bombers diminished significantly as the Cold War ended, and the number of NORAD alert sites was reduced from its Cold War high of 26. Some within the Pentagon argued in the 1990s that the alert sites should be eliminated entirely. In an effort to preserve their mission, members of the air defense community advocated the importance of air sovereignty against emerging "asymmetric threats" to the United States: drug smuggling, "non-state and state-sponsored terrorists," and the proliferation of weapons of mass destruction and ballistic missile technology.
+    The President's motorcade departed at 9:35, and arrived at the airport between 9:42 and 9:45. During the ride the President learned about the attack on the Pentagon. He boarded the aircraft, asked the Secret Service about the safety of his family, and called the Vice President. According to notes of the call, at about 9:45 the President told the Vice President:"Sounds like we have a minor war going on here, I heard about the Pentagon. We're at war . . . somebody's going to pay."
+    At 10:02 that morning, an assistant to the mission crew commander at NORAD's Northeast Air Defense Sector in Rome, New York, was working with his colleagues on the floor of the command center. In a brief moment of reflection, he was recorded remarking that "This is a new type of war."
+(base) mominahabibi@Mominas-MBP docsearch % 
+```
+Example 2:
+```
+code
+```
+- Second alternate way of using the command grep with 
+Example 1:
+```
+code
+```
+Example 2:
+```
+code
+```
+
+- Third alternate way of using the command grep with 
+Example 1:
+```
+code
+```
+Example 2:
+```
+code
+```
+
+- Fourth alternate way of using the command grep with 
+Example 1:
+```
+code
+```
+Example 2:
+```
+code
+```
