@@ -161,7 +161,23 @@ commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations a
 - Fourth alternate way of using the command `grep` with `-C` 
 Example 1:
 ```
-code
+(base) mominahabibi@Mominas-MBP docsearch % grep -C 7 "The Price of Life" ./technical/*/*12.txt
+./technical/plos/journal.pbio.0020012.txt-        another two areas of investigation. Her laboratory reported in December 2002 that
+./technical/plos/journal.pbio.0020012.txt-        inhibiting the respiration of mitochondria in developing worms increased longevity, but
+./technical/plos/journal.pbio.0020012.txt-        that it had no effect in adult worms, for reasons still unexplained, she says. Further
+./technical/plos/journal.pbio.0020012.txt-        microarray analysis is underway to pinpoint whether the cause simply lies downstream of the
+./technical/plos/journal.pbio.0020012.txt-        insulin/IGF-1 pathway or whether it is something different altogether.
+./technical/plos/journal.pbio.0020012.txt-      
+./technical/plos/journal.pbio.0020012.txt-      
+./technical/plos/journal.pbio.0020012.txt:        The Price of Life
+./technical/plos/journal.pbio.0020012.txt-        Then there's research looking at the effects on lifespan of changes to an organism's
+./technical/plos/journal.pbio.0020012.txt-        reproductive system. For Kenyon, such work often involves a battle to convince sceptics
+./technical/plos/journal.pbio.0020012.txt-        that longevity is not a trade-off with fertility. Four years ago, her laboratory reported
+./technical/plos/journal.pbio.0020012.txt-        that killing germ cells increases the lifespan of worms by 60%, but only because, she
+./technical/plos/journal.pbio.0020012.txt-        stresses, it affects endocrine signalling and not because it prevents reproduction. Further
+./technical/plos/journal.pbio.0020012.txt-        research, published last year, showed quite clearly, she says, that ageing and reproduction
+./technical/plos/journal.pbio.0020012.txt-        are controlled independently of one another. And as for her recent work on infertile worms,
+
 ```
 Example 2:
 ```
