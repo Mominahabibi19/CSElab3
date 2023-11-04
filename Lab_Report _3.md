@@ -89,7 +89,7 @@ corporation established in the District of Columbia by the Legal
 (base) mominahabibi@Mominas-MBP docsearch %
 
 ```
-Example 2:
+- - Example 2:
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -A 5 Diversity ./technical/*/*/*annual.txt
 Diversity
@@ -156,9 +156,9 @@ commission_report.txt:Consequently, these non-profit legal organizations are not
 commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations and
 (base) mominahabibi@Mominas-MBP About_LSC % 
 ```
-`-H` command line is used to force `grep` to print the file name along with the output lines. for sure, this is a useful command especially the time that we are searching multiple files with similar content and we just want to quickly identify which file contains the matching lines. Also, when troubleshooting or debugging it will be so useful because it will show which file contains problematice lines making it easier to address the issue. 
+`-H` command line is used to force `grep` to print the file name along with the output lines. Definitely, this is a useful command especially the time that we are searching multiple files with similar content and we just want to quickly identify which file contains the matching lines. Also, when troubleshooting or debugging it will be so useful because it will show which file contains problematice lines making it easier to address the issue. 
 
-- Fourth alternate way of using the command grep with 
+- Fourth alternate way of using the command `grep` with `-C` 
 Example 1:
 ```
 code
@@ -167,5 +167,6 @@ Example 2:
 ```
 code
 ```
-
+sometimes you really want to see the some additional context that contain before and after the match if finds so It will be useful searching for computer program you wrote so if you want to see the sournding code that it match
+use of grep with different commands
 https://www.youtube.com/watch?v=N05sWPgj-44
