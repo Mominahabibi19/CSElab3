@@ -12,14 +12,14 @@
 	}
 ```
 - The input that doesn't induce a failure
-  ```
-  @Test 
+```
+@Test 
 	public void testReverseInPlace2() {
     int[] input1 = { 5 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 5 }, input1);
 	}
-  ```
+```
 - The symptom as the output of running the tests
 
   This is the screenshot for the failure-inducing input
@@ -40,7 +40,7 @@
 
 - The code without the bug  
 
-  ```
+```
    static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int temp = arr[i];
@@ -48,7 +48,7 @@
        arr[arr.length-i-1] = temp;
     }
   }
-  ```
+```
 - The fix addresses the issue by correctly reversing the elements in the input array through a swapping. first, I changed the parameter in the for loop to i < arr.length/2 then I created a temp variable to save the original value of the element at index `i` then  I swapped the current element at index `i` with the element at the corresponding position from the end of the array then I assign the element from the end of the array with the value stored in the temp variable which contains the original value of the element at index `i`. By doing this approach, the fix ensures that the input array is reversed in place and does correctly for arrays of any length.
 
 
