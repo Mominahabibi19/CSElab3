@@ -100,7 +100,7 @@ program staff to examine the degree to which gender, race,
 ethnicity and age have adversely affected the ability of some
 (base) mominahabibi@Mominas-MBP docsearch % 
 ```
-When you use the command line `-A num`(after context = num) tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description so when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
+When you use the command line `-A num`(after context = num) tells `grep` command to display the lines that match the pattern followed by the specified number of lines after each match, and the num represents the number of lines you want to display after the match. so it is useful because it provides context around the matching lines for example, if I want to look for a word and its description when I `grep` that word using the command line `-A num` it will show the world followed by a few line of its description.   
 
 - Third alternate way of using the command `grep` with `-H`
 - - Example 1:
@@ -159,7 +159,7 @@ commission_report.txt:H-2A workers from non-LSC funded nonprofit organizations a
 `-H` command line is used to force `grep` to print the file name along with the output lines. Definitely, this is a useful command especially the time that we are searching multiple files with similar content and we just want to quickly identify which file contains the matching lines. Also, when troubleshooting or debugging it will be so useful because it will show which file contains problematice lines making it easier to address the issue. 
 
 - Fourth alternate way of using the command `grep` with `-C` 
-Example 1:
+ - - Example 1:
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -C 7 "The Price of Life" ./technical/*/*12.txt
 ./technical/plos/journal.pbio.0020012.txt-        another two areas of investigation. Her laboratory reported in December 2002 that
@@ -179,7 +179,7 @@ Example 1:
 ./technical/plos/journal.pbio.0020012.txt-        are controlled independently of one another. And as for her recent work on infertile worms,
 
 ```
-Example 2:
+- - Example 2:
 ```
 (base) mominahabibi@Mominas-MBP docsearch % grep -C 5 "The incidence" ./technical/*/*46.txt
 ./technical/plos/journal.pbio.0020046.txt-        Winston Churchill had to rehearse all his public speeches to perfection and even practiced
@@ -198,4 +198,5 @@ Example 2:
 Sometimes you really want to see some additional context that contains before and after the match, so we use `-C num` (context) with `grep` command to specify the number of lines of context to display around the match line. It will be useful for searching some text in the computer program you wrote so if you want to see the sounding code that matches.
 
 I learned all of these commands by watching a YouTube video. I typed in the search box "use of grep with different commands" and then I opened [this video]
-(https://www.youtube.com/watch?v=N05sWPgj-44) and took notes. In addition, I learned about grep and the command line that I can use with it by typing `man grep` in my terminal. Then, I applied in the VS Code using the files and directories form `./technical`
+(https://www.youtube.com/watch?v=N05sWPgj-44) and while I was listening, I took notes. In addition, I learned about grep and the command line that I can use with it by typing `man grep` in my terminal. Then, I applied in the VS Code using the files and directories form `./technical`
+[@https://www.youtube.com/watch?v=N05sWPgj-44]
