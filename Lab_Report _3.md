@@ -66,133 +66,17 @@ Example 1:
 ```
 Example 2:
 ```
-(base) mominahabibi@Mominas-MBP docsearch % grep -iw Alcohol ./technical/government/*/*2-PDF.txt
-Identifying ED Patients with Alcohol Problems
-Many patients in the emergency department (ED) have alcohol
-further examine and refine alcohol-screening questionnaires in the
-Alcohol problems defined
-Alcohol problems designate a spectrum from risk behavior to
-illness, and from problematic consumption to alcohol use disorder.
-screening for several alcohol endpoints. Acute intoxication is of
-certainly be considered an "alcohol problem." The blood or breath
-alcohol concentration (BAC), coupled with our clinical
-observations, may help us identify intoxication. Most alcohol
-screening tests identify patients with alcohol use disorders or
-problematic consumption of alcohol. The American Psychiatric
-(ICD-9, -10) have rigorously defined alcohol abuse and alcohol
-cases of alcohol abuse meet the ICD-10 definition. In general, an
-alcohol use disorder is present when an aspect of the patient's
-by alcohol. Before function is compromised, problematic
-toward identifying patients with high alcohol consumption before
+(base) mominahabibi@Mominas-MBP docsearch % grep -iw niaaa ./technical/government/*/*2-PDF.txt
 Institute on Alcohol Abuse and Alcoholism (NIAAA) defines at-risk
-the alcohol use spectrum. However, real tests don't perform
-would address both current and lifetime alcohol problems. Current
-identifying alcohol use disorders or problematic consumption.7 Of
-course, BAC can help identify acute intoxication. The alcohol
-diagnosis, but clinical impressions concerning alcohol problems can
-patients with alcohol problems. Unfortunately, the majority of
-reported that in a trauma center ED, staff suspected alcohol-ism in
-a sensitivity of 29% for alcohol problems in the ED.7
-Self-report may be enhanced when specific alcohol questions are
-to detect alcohol use disorders. The CAGE was developed in 1968 as
-a brief screening tool for primary care providers to detect alcohol
-The MAST (Michigan Alcohol-Screening Test), developed in 1971 as
-a screen for alcohol abuse and dependence, has 24 yes/no questions.
-developed in 1972 to screen for alcohol abuse and dependence. It
-drinkers. WHO developed the AUDIT (Alcohol Use Disorder
-at-risk drinking in addition to alcohol abuse and dependence. AUDIT
-about even lower levels of alcohol consumption in this group has
-screens for alcohol abuse and dependence. It has five questions,
-minutes to administer.33 T-ACE also screens for alcohol abuse and
-at-risk drinking, alcohol abuse, and dependence. It is a
-Rapid Alcohol Assessment Screen (RAPS4). Cherpitel screened an ED
-alcohol?"- followed by three questions about alcohol consumption
-an ICD-10 diagnosis of alcohol dependence.7 In the second study,
-with an ICD-10 or DSM-IV diagnosis of alcohol dependence, harmful
-84%, for a DSM-IV diagnosis of alcohol dependence.37 Fiellin
-reviewed 38 studies of screening for alcohol use disorder in the
-For alcohol abuse or dependence, CAGE was found most effective with
-best within the spectrum of alcohol use they were developed to
-were the best tests for alcohol dependence among women. Their
-sensitivities (59% and 48% respectively) for alcohol dependence
-Alcohol concentration
-identify intoxication. The presence of alcohol may not always
-indicate an alcohol problem. While a very high BAC in an unimpaired
-insensitive screen for an alcohol use disorder. One study found
-that only one-third of intoxicated drivers had an alcohol use
-disorder.43 In an ED study, BAC was a poor screen for alcohol abuse
-self-reported drinking.7 In another ED study, a saliva alcohol
-center, BAC had a sensitivity of 63% for an alcohol disorder.5
-with sensitivities of 13% to 67% for alcohol use disorders or
-and confronting patients with their blood alcohol levels may
-reveal the negative consequences or link alcohol to current
-staff does not use structured questionnaires for alcohol screening.
-ED staff has no systematic approach to alcohol screening. Staff
-rates. EDs have reported high case rates of alcohol problems,
-trauma, injuries, assaults,72 depression, and alcohol-related
-ED patient care should be improved by implementing alcohol
-the lack of counseling available to address patients' alcohol
-Most EDs provide very limited alcohol services. When care is
-volume of alcohol-involved patients, and the capacity to undertake
-4. National Institute on Alcohol Abuse and Alcoholism. The
-Physician's Guide to Helping Patients with Alcohol Problems.
-Alcohol Use Disorders Identification Test in screening trauma
-6. Gale T, Ja W, Welty T. Differences in detection of alcohol
-7. Cherpitel C. Screening for alcohol problems in the emergency
-8. Cherpitel C. Comparison of screening instruments for alcohol
-regions of the country. Alcohol Clin Exp Res 1997;21:1391-7.
-alcohol intoxication and chronic alcohol abuse on outcome from
-alcohol problems in the emergency department, part 1: improving
-the breath alcohol analyzer. Ann Emerg Med 1984;13:516-20.
-12. Gibb K. Serum alcohol levels, toxicology screens, and use
-of the breath alcohol analyzer. Ann Emerg Med 1986;15:349-53.
-Clifford P. Alcohol use among subcritically injured emergency
-alcohol-related problems in general practice. J Stud Alcohol
-with the Alcohol Use Disorders Identification Test (AUDIT) in an
-acute alcohol intoxication and chronic alcohol dependence by trauma
-screening in an ambulatory care setting. J Stud Alcohol
-20. Fleming M, Barry K. A three-sample test of a masked alcohol
-screening questionnaire. Alcohol 1991;26:81-91.
-validation of a new alcohol screening instrument. Am J Psychiatry
-Short Michigan Alcoholism Screening Test (SMAST). J Stud Alcohol
-Alcohol Clin Exp Res 1987;11:269-73.
-computer-administered formats. Alcohol Clin Exp Res
-31. Saunders J, Aasland O, Amundsen A, Grant M. Alcohol
-With Harmful Alcohol Consumption, I. Addiction 1993;88:349-62.
-Development of the Alcohol Use Disorders Identification Test
-pregnancy risk-drinking. Alcohol Clin Exp Res 1994;18:1156-61.
-drinking in the emergency room: the RAPS4. Rapid Alcohol Problems
-Screen. J Stud Alcohol 2000;61:447-9.
-in an emergency room population. J Stud Alcohol 1998;59:420-6.
-the CAGE, the Brief Michigan Alcohol Screening Test, and the
-Alcohol Use Disorders Identification Test in screening trauma
-38. Fiellin DA, Reid MC, O'Connor PG. Screening for alcohol
-screening instruments for identifying harmful drinking and alcohol
-dependence in the emergency room. Alcohol Clin Exp Res
-instruments for alcohol problems in the emergency room. J Stud
-Alcohol 1995;56:695-700.
-41. Bradley KA, Boyd-Wickizer J, Powell SH, Burman ML. Alcohol
-43. Gijbers A, Raymond A, Whelan G, et al. Does a blood alcohol
-M. Prevalence and recognition of alcohol abuse in a primary care
-instruments. Drug Alcohol Depend 1995;40:151-8.
-Objective diagnosis of alcohol abuse: compared values of
-transferase (GGT), and mean corpuscular volume (MCV). Alcohol Clin
-clinic: is this test useful in assessing alcohol consumption?
-Alcohol. 1998;33:304-9.
-transferrin and conventional alcohol markers as indicators for
-Alcohol Clin Exp Res 1998;22:892-6.
-A. Screening for excessive alcohol drinking: comparative value of
-Cigarette, alcohol, and other drug use by school-age pregnant
-brief intervention for adolescent alcohol use. Arch Pediatr Adolesc
-and the risk of alcohol dependence. Addiction 1993;88:1209-18.
-62. Bercsi S, Brickner P, Saha D. Alcohol use and abuse in the
-Alcohol Depend 1993;33:139-49.
-64. Fink A, Hays RD, Moore AA, Beck JC. Alcohol-related
-encountered with opportunistic screening for alcohol-related
-68. Burke T. The economic impact of alcohol abuse a
+In addition to these questionnaires, NIAAA suggests that all
+recommended using the NIAAA approach in the ED.10
+recommended by NIAAA for primary care should be compared with other
+sequences. Several trials of variations of the NIAAA approach are
+be evaluated by studying the NIAAA approach and several
 (base) mominahabibi@Mominas-MBP docsearch % 
+
 ```
-using command grep with -iw `-i` (ignore case) so it makes grep case insensitive and `-w` (word-regexp) ensures that grep matches only those words, not the words containing those characters. It is so useful the time that we want to find the word regardless of whether the characters are in uppercase or lowercase.  
+Using command `grep` with `[-iw word]` so the `-i` (ignore case) makes grep case insensitive and `-w` (word-regexp) ensures that grep matches only whole words. It is so useful for the time that we want to find the whole word regardless of whether the characters are in uppercase or lowercase.  
 
 - Second alternate way of using the command grep with 
 Example 1:
