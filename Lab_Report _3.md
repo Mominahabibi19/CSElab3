@@ -181,8 +181,20 @@ Example 1:
 ```
 Example 2:
 ```
-code
+(base) mominahabibi@Mominas-MBP docsearch % grep -C 5 "The incidence" ./technical/*/*46.txt
+./technical/plos/journal.pbio.0020046.txt-        Winston Churchill had to rehearse all his public speeches to perfection and even practiced
+./technical/plos/journal.pbio.0020046.txt-        answers to possible questions and criticisms to avoid stuttering. Charles Darwin also
+./technical/plos/journal.pbio.0020046.txt-        stuttered; interestingly, his grandfather Erasmus Darwin suffered from the same condition,
+./technical/plos/journal.pbio.0020046.txt-        highlighting the fact that stuttering runs in families and is likely to have a genetic
+./technical/plos/journal.pbio.0020046.txt-        basis.
+./technical/plos/journal.pbio.0020046.txt:        The incidence of PDS is about 5%, and its recovery rate is up to about 80%, resulting in
+./technical/plos/journal.pbio.0020046.txt-        a prevalence of PDS in about 1% of the adult population. As recovery is considerably more
+./technical/plos/journal.pbio.0020046.txt-        frequent in girls than in boys, the male-to-female ratio increases during childhood and
+./technical/plos/journal.pbio.0020046.txt-        adolescence to reach three or four males to every one female in adulthood. It is not clear
+./technical/plos/journal.pbio.0020046.txt-        to what extent this recovery is spontaneous or induced by early speech therapy. Also, there
+./technical/plos/journal.pbio.0020046.txt-        is no good way of predicting whether an affected child will recover (Yairi and Ambrose
+(base) mominahabibi@Mominas-MBP docsearch % 
 ```
-sometimes you really want to see the some additional context that contain before and after the match if finds so It will be useful searching for computer program you wrote so if you want to see the sournding code that it match
+Sometimes you really want to see some additional context that contains before and after the match, so we use `-C num` with grepIt will be useful searching for the computer program you wrote so if you want to see the sounding code that it matches
 use of grep with different commands
 https://www.youtube.com/watch?v=N05sWPgj-44
